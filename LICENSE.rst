@@ -2,7 +2,7 @@
 Neoulmini Site License Information
 ==================================================
 
-The Neoulmini Site is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.1 International License.
+The Neoulmini Site is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
 You are free to:
 
@@ -16,7 +16,7 @@ Under the following terms:
 - **ShareAlike**: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 To view the full text of the license, visit:
-https://creativecommons.org/licenses/by-nc-sa/4.1/
+https://creativecommons.org/licenses/
 
 ==================================================
 Disclaimer
