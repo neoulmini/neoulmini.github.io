@@ -52,9 +52,13 @@ Though not part of the original core grammar, users have proposed time-related s
 **Examples:**
 
 ⊙ →∞ ●        - "Energy will act on object" (future)
+
 ● ↓→ □        - "Object slowly entering container" (decay)
+
 !● → ↓        - "Dangerous object moves downward" (e.g., falling meteor)
+
 □●§● → ∞      - "Connected objects exist eternally" (e.g., ecosystem)
+
 ⊙ → ● → ● → ●□§? → ‖●●● → ↑● → ● → ● → ∞  - Description of the solar system and invitation to contact
 
 ---
@@ -81,5 +85,4 @@ By *I. Beklemishchev-Petrov* (2025)
 This project and its website materials are distributed under the **Creative Commons BY-NC-SA 4.1 License**.
 
 > This is a non-commercial presentation of the Neoulmini language.  
-> No cookies, no trackers. Pure signal.
 
