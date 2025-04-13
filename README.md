@@ -82,7 +82,7 @@ By *I. Beklemishchev-Petrov* (2025)
 
 ## ⚖️ License
 
-This project and its website materials are distributed under the **Creative Commons BY-NC-SA 4.1 License**.
+This website materials are distributed under the **Creative Commons BY-NC-SA 4.1 License**.
 
 > This is a non-commercial presentation of the Neoulmini language.  
 
