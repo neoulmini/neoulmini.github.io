@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Neoulmini — Universal Mini-Language</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+		h1, h2, h3 {
+        font-family: 'Oswald', sans-serif;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #3498db;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #2980b9;
+            margin-top: 20px;
+        }
+        .symbol-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .symbol-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .symbol {
+            font-size: 2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        code {
+            background: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+        }
+        .example {
+            background: #e8f4fc;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .grammar-extension {
+            background: #fff8e1;
+            padding: 15px;
+            border-left: 3px solid #ffc107;
+            margin: 15px 0;
+        }
+		.cookie-notice {
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neoulmini</h1>
+        <p>A universal mini-language for cross-species and cross-temporal communication</p>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>What is Neoulmini?</h2>
+            <p>Neoulmini is a minimalist language created by <strong>I. Beklemishchev-Petrov</strong> in 2025. It uses just 12 symbols to convey fundamental concepts understandable to any intelligent beings — including animals, AI, and hypothetical extraterrestrials.</p>
+            <p>Based on principles of semiotics, cognitive psychology, and physical constants.</p>
+        </section>
+
+        <section id="symbols">
+            <h2>The 12 Symbols</h2>
+            <div class="symbol-grid">
+                <div class="symbol-card">
+                    <span class="symbol">●</span>
+                    <p><strong>Object</strong><br>Any material item.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">→</span>
+                    <p><strong>Action</strong><br>Movement, influence.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">↑</span>
+                    <p><strong>Increase</strong><br>Growth, amplification.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">↓</span>
+                    <p><strong>Decrease</strong><br>Reduction, weakening.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">⊙</span>
+                    <p><strong>Energy</strong><br>Light, heat, force.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">‖</span>
+                    <p><strong>Barrier</strong><br>Obstacle, separation.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">□</span>
+                    <p><strong>Container</strong><br>Space, vessel.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">!</span>
+                    <p><strong>Danger</strong><br>Threat, warning.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">?</span>
+                    <p><strong>Question</strong><br>Unknown, inquiry.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">§</span>
+                    <p><strong>Connection</strong><br>Relation, bond.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">∞</span>
+                    <p><strong>Eternity</strong><br>Time, cycles.</p>
+                </div>
+                <div class="symbol-card">
+                    <span class="symbol">⁂</span>
+                    <p><strong>System</strong><br>Complex structure.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="grammar">
+            <h2>Grammar Rules</h2>
+            <ul>
+                <li><strong>Linearity:</strong> Symbol order = event sequence. Example: <code>● → ●</code> = "Object acts on object".</li>
+                <li><strong>Grouping:</strong> Combine symbols for complex meanings. Example: <code>□●</code> = "Object inside container".</li>
+                <li><strong>4 Interpretation Levels:</strong> From concrete (Level 1) to abstract (Level 4).</li>
+            </ul>
+
+            <div class="grammar-extension">
+                <h3>Tense/Aspect Extensions (Community Interpretations)</h3>
+                <p>While not formalized in the original grammar (Beklemishchev-Petrov, 2025), users have proposed these temporal markers:</p>
+                <ul>
+                    <li><code>→</code> = Present action (default)</li>
+                    <li><code>→∞</code> = Future/cyclic action</li>
+                    <li><code>↓→</code> = Decaying action</li>
+                </ul>
+                <div class="example">
+                    <p><strong>Examples:</strong><br>
+                    <code>⊙ →∞ ●</code> = "Energy will act on object" (future)<br>
+                    <code>● ↓→ □</code> = "Object slowly entering container" (progressive decay)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="examples">
+            <h2>Message Examples</h2>
+            <div class="example">
+                <p><code>!● → ↓</code> — "Dangerous object moves downward" (e.g., falling meteor).</p>
+            </div>
+            <div class="example">
+                <p><code>□●§● → ∞</code> — "Connected objects exist eternally" (e.g., ecosystem).</p>
+            </div>
+            <div class="example">
+                <p><code>⊙ → ● → ● → ●□§? → ‖●●● → ↑● → ● → ● → ∞</code> — Describes our solar system and an invitation for contact (see Appendix in original work).</p>
+            </div>
+        </section>
+
+        <section id="applications">
+            <h2>Potential Applications</h2>
+            <ul>
+                <li>Interstellar communication (like modern Arecibo message)</li>
+                <li>Post-apocalyptic knowledge preservation</li>
+                <li>AI-to-human mediation</li>
+                <li>Cognitive research with animals/AI</li>
+            </ul>
+        </section>
+
+        <section id="links">
+            <h2>Reference</h2>
+            <p>Original work: <a href="https://archive.org/details/neoulmini-a-universal-mini-language-for-interspecies-and-intertemporal-communica" target="_blank">Neoulmini PDF</a> by I. Beklemishchev-Petrov (2025).</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>This non-commercial site is a simplified presentation of Neoulmini. All language rights belong to the original author. Website materials are distributed under the CC BY-NC-SA 4.1 license.</p>
+            <p class="cookie-notice">This site does not use cookies.</p>
+	</footer>
+</body>
+</html>
